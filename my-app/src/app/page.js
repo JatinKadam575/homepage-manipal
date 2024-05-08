@@ -41,11 +41,9 @@ export default function Home() {
   return (
     <main>
       {/* navbar */}
-      <div className="">
-        <NavigationMenu />
-      </div>
+
       <div className="flex mt-24 border-1 border-indigo-600 h-[400px] justify-center  ">
-        <CarouselTop />
+        {/* <CarouselTop /> */}
         <div className="h-60">CarouselTop</div>
       </div>
       {/* featured */}
